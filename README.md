@@ -1,0 +1,4 @@
+- [ ] Create multiple bundle output with this criteria:
+  - [ ] All react dependencies use filename `framework.js`
+  - [ ] All unify dependencies use filename `unify.js`
+  - [ ] The rest use filename `main.js`
