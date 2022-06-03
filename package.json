@@ -5,16 +5,30 @@
   "author": "afifkhaidir <afif.khaidir@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "dev": "NODE_ENV=development webpack serve --open",
+    "build": "NODE_ENV=production webpack",
+    "build:dev": "NODE_ENV=development webpack"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.1"
   },
   "dependencies": {
+    "emotion": "9.2.12",
+    "prop-types": "^15.8.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-emotion": "9.2.12",
+    "react-router-dom": "^6.3.0",
+    "unify-react-desktop": "^0.19.0",
+    "unify-token": "^2.3.0"
   }
 }

@@ -1,0 +1,9 @@
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.title-home {
+  padding: 24px;
+  background-image: linear-gradient(to bottom right, rgb(255, 196, 0), rgb(156, 19, 156));
+}
